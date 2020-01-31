@@ -3,4 +3,4 @@ A webapp demonstrating how WebSockets can be used in an Express environment to l
 
 Built with **Express, React, and Socket.io.** Here's how it looks in action:
 ![Landing](/screenshots/landing.png)
-![Webplayer](/screenshots/landing.png)
+![Webplayer](/screenshots/webplayer.png)
