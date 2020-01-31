@@ -1,0 +1,103 @@
+@import url("https://fontlibrary.org/face/glacial-indifference");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+
+.App {
+  display: grid;
+  font-family: 'IBM Plex Sans';
+  height: 100vh;
+}
+
+main {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+aside {
+  background: #222;
+  font-family: monospace;
+  font-size: 16px;
+  color: ghostwhite;
+}
+
+.Log {
+  list-style: none;
+}
+.Log li {
+  margin-bottom: 8px;
+}
+
+.Container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  max-width: 400px;
+  font-size: 25px;
+}
+
+button {
+  border-radius: 50px;
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'GlacialIndifferenceRegular';
+  font-size: 20px;
+}
+
+.Artwork {
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 12px rgb(184, 184, 184);
+  margin-bottom: 40px;
+}
+
+.Title {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.Controls {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.Controls > * {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.ProgressBar {
+  position: relative;
+  width: 50%;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: grey;
+}
+
+.Progress {
+  position: absolute;
+  border-radius: 4px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: white;
+}
